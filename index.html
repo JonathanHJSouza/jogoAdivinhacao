@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo da Adivinhação</title>
+        <meta charset="UTF-8">
+        <script src="javascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <h2>Jogo da Adivinhação</h2>
+        <br>
+        <section>
+        <button onclick="novoJogo()">Novo Jogo</button>
+        <br>
+        <input id="txtNumero" name="txtNumero" placeholder="Digite uma opção" max="100" min="0">
+        <br>
+        <br>
+        <button onclick="tentativa()">Realizar tentativa</button>
+        <br>
+        <label id="labelResposta">Vamos jogar...</label>
+        <br>
+        <br>
+        <h4>Veja os números que já tentou:</h4>
+        <br>
+        <label id="labelTentativas">...</label>
+        </section>
+    </body>
+</html>
